@@ -24,7 +24,8 @@
             android:name=".GalleryActivity"
             android:screenOrientation="portrait"
             android:theme="@style/StatusBarTranslucent" />
-        <activity android:name=".BitmapActivity"></activity>
+        <activity android:name=".BitmapActivity" />
+        <activity android:name=".PointAnimator.PointViewActivity"></activity>
     </application>
 
 </manifest>

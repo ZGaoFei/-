@@ -29,6 +29,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.Priority;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.kevinl.smoothimageview.PointAnimator.PointViewActivity;
 
 
 /**
@@ -119,6 +120,14 @@ public class MainActivity extends AppCompatActivity {
                 }*/
 
                 Intent intent = new Intent(MainActivity.this, BitmapActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        imageView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, PointViewActivity.class);
                 startActivity(intent);
             }
         });
